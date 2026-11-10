@@ -1,0 +1,27 @@
+# Xcode / macOS
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+.DS_Store
+**/.DS_Store
+*.swp
+*~
+
+# Swift PM
+.build/
+.swiftpm/
+Package.resolved
+
+# Local junk
+.tonfotos.ini
+*.ini
+.env
+.env.*

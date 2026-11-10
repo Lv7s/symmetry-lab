@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AA46D7F1E9C4156A9C9B15C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3183998F074338B4AA344E /* ContentView.swift */; };
+		2B3407B567744BB1BFF7D0B2 /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553A0B6703D646CE8DA7DF4C /* CourseView.swift */; };
+		398602B0E94A4F0B971E64B3 /* Stereo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929AD9AE6F594E658DDB45F2 /* Stereo.swift */; };
+		3A3E84FF9ACB408E8BD0BF8B /* StereogramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3560706CE94E92B2005504 /* StereogramView.swift */; };
+		434759696A6E43E880324552 /* StereogramCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84CDAEDFC34495B45B87AC /* StereogramCanvas.swift */; };
+		54037DA932934EFA8C6F6639 /* Groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244493BAC4774AA8BA114E0F /* Groups.swift */; };
+		81052DBE9C49496D906EC22C /* Algebra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F302C795C54D2EBB0BC3D6 /* Algebra.swift */; };
+		890F4DEE33FE419496B1FF8A /* Nets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891CEC65CE0841349B72421C /* Nets.swift */; };
+		9EAE22D86C8D414F88796C77 /* Scene3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1CD45613C14304B3D3F893 /* Scene3D.swift */; };
+		A01EB8E2E5C844589A9E129D /* EstereogramaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305E8BE370CC4A44BB6BD80E /* EstereogramaApp.swift */; };
+		A7C6964E09EF43549821A1DD /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A03FFA98F2E424198A47EC6 /* Theme.swift */; };
+		A9111D61379E47C3A83105A6 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F6FCA0DF0C42EAA9BE6316 /* Triangle.swift */; };
+		AAD88C79EBA84902838634DC /* NetCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6725D007C13B47F1B99B44E5 /* NetCanvas.swift */; };
+		B0D0BA9DBCFE437EB8E1F8D2 /* TriangleLabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F80DDF08A0A46A3971EC13C /* TriangleLabView.swift */; };
+		CB4DF9CD2CD24AC59FDAA67D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FA67A8442AE45A5A87CCD21 /* Assets.xcassets */; };
+		E6BE0489667E418BA8028CC5 /* NetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03EB4CC6A8042468E979242 /* NetsView.swift */; };
+		E85764A50A514FD9986B3914 /* Lessons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BB4E8604744E2CBF031828 /* Lessons.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B3183998F074338B4AA344E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		12F6FCA0DF0C42EAA9BE6316 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		1B4E896AEE464F00BD274FD9 /* Estereograma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Estereograma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		244493BAC4774AA8BA114E0F /* Groups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groups.swift; sourceTree = "<group>"; };
+		2A03FFA98F2E424198A47EC6 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		305E8BE370CC4A44BB6BD80E /* EstereogramaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstereogramaApp.swift; sourceTree = "<group>"; };
+		4F80DDF08A0A46A3971EC13C /* TriangleLabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleLabView.swift; sourceTree = "<group>"; };
+		4FA67A8442AE45A5A87CCD21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		553A0B6703D646CE8DA7DF4C /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
+		6725D007C13B47F1B99B44E5 /* NetCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetCanvas.swift; sourceTree = "<group>"; };
+		76F302C795C54D2EBB0BC3D6 /* Algebra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algebra.swift; sourceTree = "<group>"; };
+		7A84CDAEDFC34495B45B87AC /* StereogramCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StereogramCanvas.swift; sourceTree = "<group>"; };
+		88BB4E8604744E2CBF031828 /* Lessons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lessons.swift; sourceTree = "<group>"; };
+		891CEC65CE0841349B72421C /* Nets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nets.swift; sourceTree = "<group>"; };
+		929AD9AE6F594E658DDB45F2 /* Stereo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stereo.swift; sourceTree = "<group>"; };
+		9D1CD45613C14304B3D3F893 /* Scene3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene3D.swift; sourceTree = "<group>"; };
+		AD3560706CE94E92B2005504 /* StereogramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StereogramView.swift; sourceTree = "<group>"; };
+		F03EB4CC6A8042468E979242 /* NetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53F0CFAA056A4241ABC3B57C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F3FA2402D7842E69AA4FC91 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				76F302C795C54D2EBB0BC3D6 /* Algebra.swift */,
+				244493BAC4774AA8BA114E0F /* Groups.swift */,
+				891CEC65CE0841349B72421C /* Nets.swift */,
+				9D1CD45613C14304B3D3F893 /* Scene3D.swift */,
+				929AD9AE6F594E658DDB45F2 /* Stereo.swift */,
+				12F6FCA0DF0C42EAA9BE6316 /* Triangle.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		528578D40ECE494493D7DD38 /* Estereograma */ = {
+			isa = PBXGroup;
+			children = (
+				0B3183998F074338B4AA344E /* ContentView.swift */,
+				305E8BE370CC4A44BB6BD80E /* EstereogramaApp.swift */,
+				2A03FFA98F2E424198A47EC6 /* Theme.swift */,
+				1F3FA2402D7842E69AA4FC91 /* Engine */,
+				FEAA042BC9A846889FC3A3A8 /* Views */,
+				9D8900A70CBF4F05BA35BC82 /* Course */,
+				4FA67A8442AE45A5A87CCD21 /* Assets.xcassets */,
+			);
+			path = Estereograma;
+			sourceTree = "<group>";
+		};
+		9D8900A70CBF4F05BA35BC82 /* Course */ = {
+			isa = PBXGroup;
+			children = (
+				88BB4E8604744E2CBF031828 /* Lessons.swift */,
+			);
+			path = Course;
+			sourceTree = "<group>";
+		};
+		B94EB348385B403DB3AE5723 = {
+			isa = PBXGroup;
+			children = (
+				528578D40ECE494493D7DD38 /* Estereograma */,
+				FDE35F52C00A4BE18E904153 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDE35F52C00A4BE18E904153 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B4E896AEE464F00BD274FD9 /* Estereograma.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEAA042BC9A846889FC3A3A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				553A0B6703D646CE8DA7DF4C /* CourseView.swift */,
+				6725D007C13B47F1B99B44E5 /* NetCanvas.swift */,
+				F03EB4CC6A8042468E979242 /* NetsView.swift */,
+				7A84CDAEDFC34495B45B87AC /* StereogramCanvas.swift */,
+				AD3560706CE94E92B2005504 /* StereogramView.swift */,
+				4F80DDF08A0A46A3971EC13C /* TriangleLabView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		864EB9BDD5014AD4876DB7F1 /* Estereograma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC4972DF0934164A61DC31F /* Build configuration list for PBXNativeTarget "Estereograma" */;
+			buildPhases = (
+				FBB1490F44AB4A94863FD405 /* Sources */,
+				53F0CFAA056A4241ABC3B57C /* Frameworks */,
+				D614B6B229634726A7BC4721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Estereograma;
+			productName = Estereograma;
+			productReference = 1B4E896AEE464F00BD274FD9 /* Estereograma.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE6028EF85494454A1E3410F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					864EB9BDD5014AD4876DB7F1 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 0DA3154B33DF46589A3865AC /* Build configuration list for PBXProject "Estereograma" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = es;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				es,
+				Base,
+			);
+			mainGroup = B94EB348385B403DB3AE5723;
+			productRefGroup = FDE35F52C00A4BE18E904153 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				864EB9BDD5014AD4876DB7F1 /* Estereograma */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D614B6B229634726A7BC4721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4DF9CD2CD24AC59FDAA67D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBB1490F44AB4A94863FD405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA46D7F1E9C4156A9C9B15C /* ContentView.swift in Sources */,
+				E85764A50A514FD9986B3914 /* Lessons.swift in Sources */,
+				81052DBE9C49496D906EC22C /* Algebra.swift in Sources */,
+				54037DA932934EFA8C6F6639 /* Groups.swift in Sources */,
+				890F4DEE33FE419496B1FF8A /* Nets.swift in Sources */,
+				9EAE22D86C8D414F88796C77 /* Scene3D.swift in Sources */,
+				398602B0E94A4F0B971E64B3 /* Stereo.swift in Sources */,
+				A9111D61379E47C3A83105A6 /* Triangle.swift in Sources */,
+				A01EB8E2E5C844589A9E129D /* EstereogramaApp.swift in Sources */,
+				A7C6964E09EF43549821A1DD /* Theme.swift in Sources */,
+				2B3407B567744BB1BFF7D0B2 /* CourseView.swift in Sources */,
+				AAD88C79EBA84902838634DC /* NetCanvas.swift in Sources */,
+				E6BE0489667E418BA8028CC5 /* NetsView.swift in Sources */,
+				434759696A6E43E880324552 /* StereogramCanvas.swift in Sources */,
+				3A3E84FF9ACB408E8BD0BF8B /* StereogramView.swift in Sources */,
+				B0D0BA9DBCFE437EB8E1F8D2 /* TriangleLabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1F23705EF9AF4425AEF3B7B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2756A77388594099BFC85CE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZN485GHNMK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Estereograma;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = lavf.Estereograma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		43EC14C9F6EF42A8A13FF015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EBD8941BF9D4923920504F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZN485GHNMK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Estereograma;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = lavf.Estereograma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DA3154B33DF46589A3865AC /* Build configuration list for PBXProject "Estereograma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F23705EF9AF4425AEF3B7B7 /* Debug */,
+				43EC14C9F6EF42A8A13FF015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC4972DF0934164A61DC31F /* Build configuration list for PBXNativeTarget "Estereograma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EBD8941BF9D4923920504F0 /* Debug */,
+				2756A77388594099BFC85CE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE6028EF85494454A1E3410F /* Project object */;
+}
